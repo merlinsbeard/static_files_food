@@ -1,0 +1,235 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body {
+	font-family: 'Georgia, arial, sans-serif';
+	background: red;
+	background: url(../images/egg_shell.png) repeat;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: black;
+}
+
+.wrap {
+	background: rgba( 225, 194, 210, .5);
+	width: 960px;
+	margin: 0 auto;
+}
+
+#pageContainer {
+	min-height: 600px;
+}
+
+header {
+	overflow: hidden;
+}
+
+#header {
+	font-size: 20px;
+	overflow: hidden;
+	height: 300px;
+	background: url('http://localhost/media/images/cupcakethumbs/head.jpg') no-repeat;
+	background-position: center center;
+
+}
+#top_header{
+	background: rgba( 148, 148, 148, 1);
+	text-align: center;
+	overflow: hidden;
+	height: 35px;
+	min-width: 960px;
+	-webkit-box-shadow: 0px 1px 10px 0px #000000;
+	box-shadow: 0px 1px 10px 0px #000000;
+}
+
+
+#top_header #maintitle{
+	float: left;
+	width: 25%;
+	margin-left: 37.5%;
+	height: 100%;
+}
+
+#maintitle h1{
+	text-indent: -9999;
+	background: white;
+	height: 100%;
+}
+
+#top_header #nav_log{
+	padding: 5px 0;
+	float:right;
+	height: 100%;
+}
+
+#top_header #nav_log a{
+	color: white;
+}
+
+#top_header #nav_log, #top_header #maintitle{
+
+}
+
+
+#nav{
+	margin-top: 210px;
+	margin-left: 35.5%;
+	background: orange;
+}
+
+#header #nav a {
+	text-decoration: none;
+	float: left;
+	padding: 20px 20px 20px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 1px 10px 0px #000000;
+	box-shadow: 0px 1px 10px 0px #000000;
+}
+
+#header #nav a:hover {
+	text-decoration: underline;
+	-webkit-box-shadow: 0px 1px 10px 0px white;
+	box-shadow: 0px 1px 10px 0px white;
+}
+
+#intro {
+	height: 400px;
+	overflow: hidden;
+	width: 960px;
+}
+
+#intro #slideshow {
+	float: left;
+	width: 400px;
+}
+
+#intro img{
+	margin: 20px 50px 20px 50px;
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 1px 10px 0px #000000;
+	box-shadow: 0px 1px 10px 0px #000000;
+
+}
+
+span {
+	overflow: hidden;
+}
+
+span ul{
+	width: 130px;
+	margin: auto;
+	padding: 10px;
+	overflow: hidden;
+}
+span ul li{
+	background: white;
+	text-indent: -99999;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	float:left;
+	border-radius: 200px;
+	-webkit-box-shadow: 0px 1px 10px 0px #000000;
+	box-shadow: 0px 1px 10px 0px #000000;
+
+}
+
+#intro #desc {
+	overflow: hidden;
+	margin-top: 100px;
+	padding-left: 50px;
+	
+}
+
+#pageContainer {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#cupcakelist {
+	
+	overflow: hidden;
+
+}
+
+#cupcakelist h2 {
+	text-align: center;
+	margin: 20px auto;
+}
+
+#cupcakelist ul{
+	overflow: hidden;
+	padding: 0;
+	margin: auto;
+
+
+}
+
+#cupcakelist li{
+	text-align: center;
+	float:left;
+	height: 250px;
+	padding: 15px;
+	width: 200px;
+	margin: 5px 5px 30px;
+	
+	background: rgba( 255, 255, 255, .7);
+	-webkit-box-shadow: 0px 1px 10px 0px #000000;
+	box-shadow: 0px 1px 10px 0px #000000;
+	border-radius: 10px;
+}
+
+
+#cupcakelist li img{
+	background: #97d3db;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 180px;
+	width: 180px;
+	border-radius: 200px;
+	-webkit-box-shadow: 0px 1px 10px 0px #000000;
+	box-shadow: 0px 1px 10px 0px #000000;
+}
+
+#cupcakelist li img:hover{
+	-webkit-box-shadow: 0px 1px 10px 0px white;
+	box-shadow: 0px 1px 10px 0px white;
+}
+
+#cupcakelist h3 {
+	overflow: hidden;
+}
+
+#cupcake_profile {
+	text-align: center;
+}
+
+footer {
+	background: black;
+	color: white;
+}
+
+#footer {
+	text-align: center;
+	background: black;
+
+}
+
+#footer #foot_nav{
+	
+	padding: 20px 0;
+}
+
+#footer #foot_nav a{
+	color: white;
+}
